@@ -1,0 +1,68 @@
+{
+  "name": "eslint-plugin-rsc-boundaries",
+  "version": "0.1.0",
+  "description": "ESLint plugin for React Server Components and Next.js App Router: catch \"use client\" / server boundary mistakes",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "docs",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "react",
+    "rsc",
+    "react-server-components",
+    "nextjs",
+    "next.js",
+    "app-router",
+    "use-client",
+    "use-server",
+    "server-components",
+    "client-boundary",
+    "typescript"
+  ],
+  "author": "Reza Amini",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/estree": "^1.0.9",
+    "@types/node": "^22.13.10",
+    "@typescript-eslint/parser": "^8.26.1",
+    "eslint": "^9.22.0",
+    "eslint-vitest-rule-tester": "^3.2.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1",
+    "vitest": "^3.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezamini/eslint-plugin-rsc-boundaries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rezamini/eslint-plugin-rsc-boundaries/issues"
+  },
+  "homepage": "https://github.com/rezamini/eslint-plugin-rsc-boundaries#readme"
+}
