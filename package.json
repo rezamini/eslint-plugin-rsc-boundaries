@@ -64,10 +64,5 @@
   "bugs": {
     "url": "https://github.com/rezamini/eslint-plugin-rsc-boundaries/issues"
   },
-  "homepage": "https://github.com/rezamini/eslint-plugin-rsc-boundaries#readme",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
-  }
+  "homepage": "https://github.com/rezamini/eslint-plugin-rsc-boundaries#readme"
 }
