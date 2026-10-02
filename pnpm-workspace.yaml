@@ -1,3 +1,4 @@
-# pnpm 10+ settings file (not a multi-package workspace)
+packages:
+  - "."
 onlyBuiltDependencies:
   - esbuild
